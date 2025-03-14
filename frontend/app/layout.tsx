@@ -3,8 +3,8 @@ import '../styles/globals.css';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: '마라톤 대회 관리 시스템',
-  description: '전국의 마라톤 대회 정보를 한 곳에서 관리하고 참가할 수 있는 서비스입니다.',
+  title: 'Team PAC',
+  description: 'Team PAC의 발전을 위하여... ',
 };
 
 interface RootLayoutProps {
