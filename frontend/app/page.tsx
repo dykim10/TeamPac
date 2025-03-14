@@ -26,7 +26,8 @@ interface UpcomingRace {
 }
 
 export default function Home() {
-  const [featuredRaces, setFeaturedRaces] = useState<FeaturedRace[]>([
+  //setFeaturedRaces <-- setter 함수 일시적으로 제거수정.
+  const [featuredRaces] = useState<FeaturedRace[]>([
     {
       id: '773e13d5-d4d0-4fc4-a025-58c224d9d3ef',
       title: '서울 국제 마라톤',
@@ -53,7 +54,8 @@ export default function Home() {
     }
   ]);
 
-  const [upcomingRaces, setUpcomingRaces] = useState<UpcomingRace[]>([
+  //setUpcomingRaces <-- setter 함수는 일시적으로 수정. 
+  const [upcomingRaces] = useState<UpcomingRace[]>([
     {
       id: '1a2b3c4d-5e6f-7g8h-9i0j-1k2l3m4n5o6p',
       title: '경주 벚꽃 마라톤',
@@ -82,20 +84,20 @@ export default function Home() {
 
   // API에서 데이터 가져오기 (실제 구현 시 사용)
   useEffect(() => {
-    const fetchRaces = async (): Promise<void> => {
-      try {
-        // 실제 API 호출 코드로 대체
-        // const response = await fetch('/api/featured-races');
-        // const data = await response.json();
-        // setFeaturedRaces(data);
+    // const fetchRaces = async (): Promise<void> => {
+    //   try {
+    //     // 실제 API 호출 코드로 대체
+    //     // const response = await fetch('/api/featured-races');
+    //     // const data = await response.json();
+    //     // setFeaturedRaces(data);
         
-        // const upcomingResponse = await fetch('/api/upcoming-races');
-        // const upcomingData = await upcomingResponse.json();
-        // setUpcomingRaces(upcomingData);
-      } catch (error) {
-        console.error('대회 데이터를 불러오는 중 오류가 발생했습니다:', error);
-      }
-    };
+    //     // const upcomingResponse = await fetch('/api/upcoming-races');
+    //     // const upcomingData = await upcomingResponse.json();
+    //     // setUpcomingRaces(upcomingData);
+    //   } catch (error) {
+    //     console.error('대회 데이터를 불러오는 중 오류가 발생했습니다:', error);
+    //   }
+    // };
 
     // fetchRaces();
   }, []);
