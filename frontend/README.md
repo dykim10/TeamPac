@@ -1,36 +1,21 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PortFolio - NextJs 14 - TypeScript
+AI를 활용하여, 개발해본다. 
 
-## Getting Started
+1. AI 매니저를 통해서 메일을 발신한다.
+2. DB를 쌓는다.
+3. 채팅을 입력하면, 해당 내용을 정확하게 노출한다.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# 미래 프로젝트 방향
+::: TeamPac 웹사이트의 프론트페이지를 만든다.
+* 대회 구성
+  - 대회 평점 DB화
+* 팀팩 회원정보 구성
+  - 팀팩 기수 정보
+  - 팀팩 구성원 PB 데이터
+  - 팀팩 구성원 훈련정보를 기반으로 대회 기록 유추하기.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* 커뮤니티
+* 카카오톡 오픈채팅방 연결하기
+* 기타 아이디어가 떠오르면 계속 추가하기. 
