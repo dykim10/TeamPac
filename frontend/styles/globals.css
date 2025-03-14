@@ -1,0 +1,47 @@
+/* 글꼴 설정 */
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #333;
+}
+
+/* 버튼 스타일 개선 */
+.btn-primary {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.btn-primary:hover {
+  background-color: #004494;
+  border-color: #004494;
+}
+
+/* 카드 호버 효과 */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* 네비게이션 바 개선 */
+.navbar-dark {
+  background-color: #1a1a2e !important;
+}
+
+/* 히어로 섹션 배경 */
+.bg-primary {
+  background: linear-gradient(135deg, #0056b3 0%, #00a0e9 100%) !important;
+}
+
+/* 푸터 링크 스타일 */
+footer a {
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+footer a:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+} 
